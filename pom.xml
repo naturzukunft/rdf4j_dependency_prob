@@ -2,12 +2,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-<!-- 	<parent> -->
-<!-- 		<groupId>org.linkedopenactors.ap</groupId> -->
-<!-- 		<artifactId>rdf-pub</artifactId> -->
-<!-- 	    <version>0.0.5-rdf4j_4.0.4-SNAPSHOT</version> -->
-<!-- 	</parent> -->
-
 	<groupId>de.example</groupId>
 	<artifactId>testRdf4j4</artifactId>
 	<version>0.0.5-rdf4j_4.0.4-SNAPSHOT</version>
@@ -156,23 +150,6 @@
 		<!-- <groupId>org.eclipse.rdf4j</groupId> -->
 		<!-- <artifactId>rdf4j-rio-turtle</artifactId> -->
 		<!-- </dependency> -->
-
-		<!-- Others -->
-		<dependency>
-			<groupId>org.linkedopenactors.ap</groupId>
-			<artifactId>rdf-pub-repository</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>de.naturzukunft.rdf4j</groupId>
-			<artifactId>vocabulary</artifactId>
-			<version>0.1.5-rdf4j_4.0.4-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>de.naturzukunft.rdf4j</groupId>
-			<artifactId>rdf4j-utils</artifactId>
-			<version>0.1.5-rdf4j_4.0.4-SNAPSHOT</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
